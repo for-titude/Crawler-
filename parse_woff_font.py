@@ -93,7 +93,7 @@ def convert_cmap_to_image(cmap_code: int, font_path: str, img_size: int = 1024) 
         # 如果没有找到边界框，返回原始图像
         final_img = Image.new("1", (img_size, img_size), 255)
 
-    final_img.save(f"./imgs/{cmap_code}.png",'PNG')
+    # final_img.save(f"./imgs/{cmap_code}.png",'PNG')
     return final_img
 
 
